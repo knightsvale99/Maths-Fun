@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maths Fun</title>
+  <meta name="description" content="Fun maths games and lessons for kids aged 6 to 10: addition, subtraction, multiplication and division.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦉</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#/" class="logo" aria-label="Maths Fun home">
+      <span class="logo-tiles" aria-hidden="true"><b class="t-add">+</b><b class="t-sub">−</b><b class="t-mul">×</b><b class="t-div">÷</b></span>
+      <span class="logo-text">Maths Fun</span>
+    </a>
+    <div class="topbar-right">
+      <a href="#/badges" class="star-pill" aria-label="Your stars and badges"><span aria-hidden="true">⭐</span><span id="star-count">0</span></a>
+      <button id="sound-btn" class="icon-btn" type="button" aria-label="Turn sound off">🔊</button>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/progress.js"></script>
+  <script src="js/effects.js"></script>
+  <script src="js/questions.js"></script>
+  <script src="js/visuals.js"></script>
+  <script src="js/lessons.js"></script>
+  <script src="js/learn.js"></script>
+  <script src="js/practice.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/chart.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
